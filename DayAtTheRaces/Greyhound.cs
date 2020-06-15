@@ -20,12 +20,18 @@ namespace DayAtTheRaces
         {     
             // Move forward either 1, 2, 3 or 4 spaces at random      
             // Update the position of my PictureBox on the form     
-            // Return true if I won the race   
+            // Return true if I won the race
+            StartingPosition = 0;
+            RacetrackLength = 24;
         } 
 
         public void TakeStartingPosition()
         {     
-            // Reset my location to the start line  
+            // Reset my location to the start line
+            if (Location > 0)
+            {
+
+            }
         } 
     }
 }

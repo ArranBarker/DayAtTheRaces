@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bet.cs" />
     <Compile Include="Guy.cs" />
     <Compile Include="Greyhound.cs" />
     <Compile Include="Form1.cs">
