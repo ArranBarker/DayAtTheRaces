@@ -14,7 +14,7 @@ namespace DayAtTheRaces
         public int RacetrackLength; // How long the racetrack is   
         public PictureBox MyPictureBox = null; // My PictureBox object   
         public int Location = 0; // My Location on the racetrack  
-        public Random Randomizer; // An instance of Random   
+        public Random Randomizer; // An instance of Random
         
         public bool Run() 
         {     
@@ -23,6 +23,21 @@ namespace DayAtTheRaces
             // Return true if I won the race
             StartingPosition = 0;
             RacetrackLength = 24;
+
+            foreach ()
+            {
+                if (Location < RacetrackLength)
+                {
+                    Randomizer = new Random();
+                    int RandomizerInt = Randomizer.Next(0, 5);
+                    return Location + ;
+                }
+                else
+                {
+                    Location = RacetrackLength;
+                }
+            }
+
         } 
 
         public void TakeStartingPosition()
